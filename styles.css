@@ -75,3 +75,17 @@ hr{
 .link-active{
     font-weight: bold;
 }
+
+/* header */
+
+img{
+    max-width: 400px;
+    margin: auto;
+    display: block;
+}
+
+.hero-heading{
+    text-align: center;
+    color: #9CA3AF;
+
+}
