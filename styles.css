@@ -102,3 +102,24 @@ img{
 .ow{
     background-color: var(--off-white);
 }
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: white;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.footer h3{
+    text-align: center;
+}
+
+.footer .social-icons-list{
+    text-align: center;
+}
+
+.footer .link{
+    color: white;
+}
