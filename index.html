@@ -5,13 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    Hi! I'm Shaik Saadullah Shareef,
-    I'm pursuing Computer Science Engineering from ISL Engineering College.
-    I've started learning web development at neog.camp.
-    I've created a quiz on the series Game of Thrones.
-    This game is divided into three levels.
-    I love working out. Watching series.
+<body style="max-width: 1200px; margin:auto">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-brand">saad.codes</div>
+        <ul class="non-bullet-list navbar-pills">
+            <li class="list-item-inline link-active">
+                <a class="link" href="3">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="3">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="3">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Hero section -->
+    <header>
+        <img src="/images/header-img.svg" alt="this is a header image">
+        <h1 class="hero-heading">
+            <small>
+                Hey! I'm
+            </small>
+            <br>
+            Shaik Saadullah Shareef
+            <br>
+            <small>I'm a</small>
+            <span style="color: var(--primary-color);">Web Developer!</span>
+        </h1>
+
+    </header>
+
+    <!-- sections -->
+    <section class="section ow">
+        <h2>About Me</h2>
+        <p>I'm pursuing Computer Science Engineering from ISL Engineering College.
+            I've started learning web development at neog.camp.</p>
+        <p>I love exploring new things and also loves working out. Learns constantly and works hard with consistency.</p>
+    </section>
+
+    <section class="section">
+        <h2>Technologies</h2>
+        <p>I'm familiar with HTML5, CSS3, JavaScript, Git, GitHub, Web Hosting, Netlify, Replt.it, Node.js.</p>
+        <p>I've used some Npm packages like "readline-sync" "chalk"</p>
+    </section>
+
+    <section class="section ow">
+        <h2>Projects</h2>
+        <p>Here are my projects which I developed in levelZero of neog.camp</p>
+        <a class="link primary-link" href="#">View Projects</a>
+    </section>
+
+    <section class="section">
+        <h2>Blogs</h2>
+        <p>I've written some blogs which are intresting, do check them out.</p>
+        <a class="link primary-link" href="#">View Blogs</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h3>Connect with me on:</h3>
+        <ul class="non-bullet-list social-icons-list">
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/shaik-saad">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/shaiksaadullah">
+                    <i class="fab fa-twitter"></i>
+                </a></li>
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/shaik-saad">
+                    <i class="fab fa-github"></i>
+                </a></li>
+        </ul>
+    </footer>
 </body>
 </html>
