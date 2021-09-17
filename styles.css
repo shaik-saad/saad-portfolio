@@ -79,6 +79,10 @@ hr{
 
 /* header */
 
+.hero{
+    padding: 3rem 0rem;
+}
+
 img{
     max-width: 400px;
     margin: auto;
@@ -94,13 +98,12 @@ img{
 /* sections */
 .section{
     padding: 2rem;
-    text-align: center;
     border-radius: 1rem;
     margin: 2rem 0rem;
+    text-align: center;
 }
 .section h2{
     margin: 0.5rem;
-    text-align: center;
 }
 
 .section p{
@@ -109,6 +112,10 @@ img{
 
 .ow{
     background-color: var(--off-white);
+}
+
+.article-blog{
+    padding-bottom: 10rem;
 }
 
 /* footer */
@@ -131,3 +138,4 @@ img{
 .footer .link{
     color: white;
 }
+
