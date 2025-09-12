@@ -1,185 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects</title>
 
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body style="max-width: 1300px; margin:auto">
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="navbar-brand">saad.codes</div>
-        <ul class="non-bullet-list navbar-pills">
-            <li class="list-item-inline">
-                <a class="link" href="/">Home</a>
-            </li>
-            <li class="list-item-inline link-active">
-                <a class="link" href="projects.html">Projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="blogs.html">Blogs</a>
-            </li>
-        </ul>
-    </nav>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- Navbar -->
+            <nav class="navbar">
+                <div class="navbar-brand">saad.<span>codes</span></div>
+                <ul class="non-bullet-list">
+                <li class="list-item-inline">
+                    <a class="navbar-link" href="/">Home</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="navbar-link-active" href="projects.html">Projects</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="navbar-link" href="blogs.html">Blogs</a>
+                </li>
+                </ul>
+            </nav>
+            
+            <main class="page body">
+                <header>
+                    <h1 class="page-heading">
+                        My Projects    
+                    </h1>
+                </header>
+            
+                <!-- projects list -->
+            
+                <ul class="non-bullet-list">
+                    <h3 class="sub-heading">
+                        Professional experiences    
+                    </h3>
+                    <li>
+                        <div class="container container-center">
+                            <section class="project-section">
+                                <div class="project-description-container">
+                                    <div class="project-details-container">
+                                        <h2>CareerJig - Web Development Intern</h2>
+                                        <small>June, 2024 - Sept 2025</small>
+                                        <ul class="skills-used-list">
+                                            <li>Next.js</li>
+                                            <li>Tailwind CSS</li>
+                                            <li>Typescript</li>
+                                            <li>MySQL</li>
+                                            <li>GitHub Actions</li>
+                                            <li>AWS</li>
+                                        </ul>
+                                        <p>CareerJig is the all-in-one platform for career inspiration, navigation, and growth, designed for both mentors and mentees. Whether you're exploring new opportunities, securing your ideal role, or expanding your career impact, CareerJig enables you to network authentically, give and get meaningful guidance and build your personal brand. A community that empowers each step of your journey, helping you achieve—and inspire—career success.</p>
+                                    </div>
+                                    <div class="project-links-container">
+                                        <a class="primary-link" href="https://careerjig.com/">Live Project</a>
+                                    </div>
+                                </div>
+                                <div class="project-image-container">
+                                    <img class="project-image" src="./images/careerjig.png" alt="Project CareerJig Screenshot">
+                                </div>
+                            </section>
+                        </div>
+                    </li>
 
-    <!-- Hero section -->
-    <header>
-        <h1 class="hero-heading">
-            My Projects    
-        </h1>
-
-    </header>
-
-    <!-- projects list -->
-
-    <ul class="non-bullet-list">
-        <li>
-            <div class="container container-center">
-                <section class="section ">
-                    <h2>Stonkz | Stocks Profit & Loss Calculator</h2>
-                    <small>23rd September, 2020</small>
-                    <p>Who does not invest in stocks these days? This app let's you calculate your profit or loss in a particualar stock. This app built in <strong>HTML, CSS, JS</strong></p>
-                    <a class="link primary-link" href="https://stock-profit-loss-calculator-mark14.netlify.app/">Live Project</a>
-                    <a class="link secondary-link" href="https://github.com/shaik-saad/stock-profit-loss-calculator">View Source Code</a>
-                </section>
-            </div>
-        </li>
-        <li>
-            <div class="container container-center">
-                <section class="section ">
-                    <h2>Is your Birthday Palindrome></h2>
-                    <small>23rd September, 2020</small>
-                    <p>Palindrome. The words which spell exactly same when reversed. Look as this word 'racecar'. Does your birthdate form a palindrome? Well hop on the app to check whether it is palindrome or not. This app is built using <strong>HTML, CSS, JS</strong></p>
-                    <a class="link primary-link" href="https://isbirthday-palindrome.netlify.app/ ">Live Project</a>
-                    <a class="link secondary-link" href="https://github.com/shaik-saad/is-birthday-palindrome">View Source Code</a>
-                </section>
-            </div>
-        </li>
-        <li>
-            <div class="container container-center">
-                <section class="section ">
-                    <h2>Fun with Triangles</h2>
-                    <small>22nd September, 2020</small>
-                    <p>A very interesing and fun to play quiz on triangles, check if angles form a triangle or not, calculates hypotenuse and also area of a triangle. This app is built using <strong>HTML, CSS, JS</strong></p>
-                    <a class="link primary-link" href="https://fun-with-triangles-mark-12.netlify.app/">Live Project</a>
-                    <a class="link secondary-link" href="https://github.com/shaik-saad/fun-with-triangles">View Source Code</a>
-                </section>
-            </div>
-        </li>
-        <li>
-            <div class="container container-center">
-                <section class="section ">
-                    <h2>Is your Birthday Lucky?</h2>
-                    <small>21st September, 2020</small>
-                    <p>What your lucky number? Well give your lucky number to this app and it will tell you if your birthday and luckynumber are lucky or not. This app is built using <strong>React.js</strong></p>
-                    <a class="link primary-link" href="https://is-birth-date-lucky.netlify.app/">Live Project</a>
-                    <a class="link secondary-link" href="https://github.com/shaik-saad/is-dob-lucky">View Source Code</a>
-                </section>
-            </div>
-        </li>
-        <li>
-            <div class="container container-center">
-                <section class="section ">
-                    <h2>Cash Register Manager</h2>
-                    <small>21st September, 2020</small>
-                    <p>Ever seen how cashier at mall/grocery stores returns you the money? Well this app does exactly the same it gives minimal number of notes for the amount which has to be returned. This a CLI app built on <strong>React.js</strong></p>
-                    <a class="link primary-link" href="https://cash-register-7.netlify.app/">Live Project</a>
-                    <a class="link secondary-link" href="https://github.com/shaik-saad/cash-register-manager">View Source Code</a>
-                </section>
-            </div>
-        </li>
-        <li>
-            <div class="container container-center">
-                <section class="section ">
-                    <h2>Trippy Adventure</h2>
-                    <small>20th September, 2020</small>
-                    <p>An app which gives you place recommendations with description and ratings based on the type of place. This app is built using <strong>React.js</strong></p>
-                    <a class="link primary-link" href="https://j5hc1.csb.app/">Live Project</a>
-                    <a class="link secondary-link" href="https://github.com/shaik-saad/travel-adventure">View Source Code</a>
-                </section>
-            </div>
-        </li>
-        <li>
-            <div class="container container-center">
-                <section class="section ">
-                    <h2>BOB The Emoji Name!</h2>
-                    <small>19th September, 2020</small>
-                    <p>Most of the emojis we use, we often dont know their meaning. This app gives you meaning of all the food emojis, just enter an emoji to get the meaning or click from the given emojis. This app is built using <strong>React.js</strong></p>
-                    <a class="link primary-link" href="https://wy71s.csb.app/">Live Project</a>
-                    <a class="link secondary-link" href="https://github.com/shaik-saad/emoji-interpreter">View Source Code</a>
-                </section>
-            </div>
-        </li>
-        <li>
-            <div class="container container-center">
-                <section class="section ">
-                    <h2>133t h4x0r</h2>
-                    <small>18th September, 2020</small>
-                    <p>You might have seen hackers communicating in secret code? This translator app will convert the text in English language to the Leet / Hacker slang. This app built using <strong>HTML, CSS, JS</strong></p>
-                    <a class="link primary-link" href="https://leethacker.netlify.app/">Live Project</a>
-                    <a class="link secondary-link" href="https://github.com/shaik-saad/leetcode-translator">View Source Code</a>
-                </section>
-            </div>
-        </li>
-        <li>
-            <div class="container container-center">
-                <section class="section ">
-                    <h2>Banana Translation</h2>
-                    <small>18th September, 2020</small>
-                    <p>We all love minions, don't we?. They look cute and they talk cute. Well, you can talk cute like minions too! This fun translation app let's you translate your text from English to Banana language. This app is built using <strong>HTML, CSS, JS</strong></p>
-                    <a class="link primary-link" href="https://speakinbanana.netlify.app/">Live Project</a>
-                    <a class="link secondary-link" href="https://github.com/shaik-saad/banana-talk">View Source Code</a>
-                </section>
-            </div>
-        </li>
+                    <h3 class="sub-heading">
+                        Learning Projects    
+                    </h3>
+                    
+                    <li>
+                        <div class="container container-center">
+                            <section class="project-section">
+                                <div class="project-description-container">
+                                    <div class="project-details-container">
+                                        <h2>SLEEK UI</h2>
+                                        <small>18th February, 2022</small>
+                                        <ul class="skills-used-list">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                        <p>Build beautiful, SLEEK and fast application experiences. A lightweight and simple front-end component library to build web applications in much faster pace.</p>
+                                    </div>
+                                    <div class="project-links-container">
+                                        <a class="primary-link" href="https://sleek-ui.vercel.app/">Live Project</a>
+                                        <a class="secondary-link" href="https://github.com/shaik-saad/sleek-ui">View Source Code</a>
+                                    </div>
+                                </div>
+                                <div class="project-image-container">
+                                    <img class="project-image" src="./images/sleek-ui.png" alt="Project SLEEK UI Screenshot">
+                                </div>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container container-center">
+                            <section class="project-section">
+                                <div class="project-description-container">
+                                    <div class="project-details-container">
+                                        <h2>Stonkz | Stocks Profit & Loss Calculator</h2>
+                                        <small>23rd September, 2020</small>
+                                        <ul class="skills-used-list">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                        <p>Who does not invest in stocks these days? This app let's you calculate your profit or loss in a particualar stock.</p>
+                                    </div>
+                                    <div class="project-links-container">
+                                        <a class="primary-link" href="https://stock-profit-loss-calculator-mark14.netlify.app/">Live Project</a>
+                                        <a class="secondary-link" href="https://github.com/shaik-saad/stock-profit-loss-calculator">View Source Code</a>
+                                    </div>
+                                </div>
+                                <div class="project-image-container">
+                                    <img class="project-image" src="./images/stonkz.png" alt="Project Stonkz Screenshot">
+                                </div>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container container-center">
+                            <section class="project-section">
+                                <div class="project-description-container">
+                                    <div class="project-details-container">
+                                        <h2>Is your Birthday Palindrome?</h2>
+                                        <small>23rd September, 2020</small>
+                                        <ul class="skills-used-list">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                        <p>Palindrome. The words which spell exactly same when reversed. Look as this word 'racecar'. Does your birthdate form a palindrome? Well hop on the app to check whether it is palindrome or not.</p>
+                                    </div>
+                                    <div class="project-links-container">
+                                        <a class="primary-link" href="https://isbirthday-palindrome.netlify.app/ ">Live Project</a>
+                                        <a class="secondary-link" href="https://github.com/shaik-saad/is-birthday-palindrome">View Source Code</a>
+                                    </div>
+                                </div>
+                                <div class="project-image-container">
+                                    <img class="project-image" src="./images/birthday-palindrome.png" alt="Project Birthday Palindrome Screenshot">
+                                </div>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container container-center">
+                            <section class="project-section">
+                                <div class="project-description-container">
+                                    <div class="project-details-container">
+                                        <h2>Fun with Triangles</h2>
+                                        <small>22nd September, 2020</small>
+                                        <ul class="skills-used-list">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                        <p>A very interesing and fun to play quiz on triangles, check if angles form a triangle or not, calculates hypotenuse and also area of a triangle</p>
+                                    </div>
+                                    <div class="project-links-container">
+                                        <a class="primary-link" href="https://fun-with-triangles-mark-12.netlify.app/">Live Project</a>
+                                        <a class="secondary-link" href="https://github.com/shaik-saad/fun-with-triangles">View Source Code</a>
+                                    </div>
+                                </div>
+                                <div class="project-image-container">
+                                    <img class="project-image" src="./images/triangles.png" alt="Project Fun with Triangles Screenshot">
+                                </div>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container container-center">
+                            <section class="project-section">
+                                <div class="project-description-container">
+                                    <div class="project-details-container">
+                                        <h2>Is your Birthday Lucky?</h2>
+                                        <small>21st September, 2020</small>
+                                        <ul class="skills-used-list">
+                                            <li>React</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                        <p>What your lucky number? Well give your lucky number to this app and it will tell you if your birthday and luckynumber are lucky or not.</p>
+                                    </div>
+                                    <div class="project-links-container">
+                                        <a class="primary-link" href="https://is-birth-date-lucky.netlify.app/">Live Project</a>
+                                        <a class="secondary-link" href="https://github.com/shaik-saad/is-dob-lucky">View Source Code</a>
+                                    </div>
+                                </div>
+                                <div class="project-image-container">
+                                    <img class="project-image" src="./images/birthday-lucky.png" alt="Project Birthday Lucky? Screenshot">
+                                </div>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container container-center">
+                            <section class="project-section">
+                                <div class="project-description-container">
+                                    <div class="project-details-container">
+                                        <h2>Cash Register Manager</h2>
+                                        <small>21st September, 2020</small>
+                                        <ul class="skills-used-list">
+                                            <li>React</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                        <p>Ever seen how cashier at mall/grocery stores returns you the money? Well this app does exactly the same it gives minimal number of notes for the amount which has to be returned.</p>
+                                    </div>
+                                    <div class="project-links-container">
+                                        <a class="primary-link" href="https://cash-register-7.netlify.app/">Live Project</a>
+                                        <a class="secondary-link" href="https://github.com/shaik-saad/cash-register-manager">View Source Code</a>
+                                    </div>
+                                </div>
+                                <div class="project-image-container">
+                                    <img class="project-image" src="./images/cash-register.png" alt="Project Cash Register Manager Screenshot">
+                                </div>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container container-center">
+                            <section class="project-section">
+                                <div class="project-description-container">
+                                    <div class="project-details-container">
+                                        <h2>Trippy Adventure</h2>
+                                        <small>20th September, 2020</small>
+                                        <ul class="skills-used-list">
+                                            <li>React</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                        <p>An app which gives you place recommendations with description and ratings based on the type of place.</p>
+                                    </div>
+                                    <div class="project-links-container">
+                                        <a class="primary-link" href="https://j5hc1.csb.app/">Live Project</a>
+                                        <a class="secondary-link" href="https://github.com/shaik-saad/travel-adventure">View Source Code</a>
+                                    </div>
+                                </div>
+                                <div class="project-image-container">
+                                    <img class="project-image" src="./images/trippy-adventure.png" alt="Project Trippy Adventure Screenshot">
+                                </div>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container container-center">
+                            <section class="project-section">
+                                <div class="project-description-container">
+                                    <div class="project-details-container">
+                                        <h2>BOB The Emoji Name!</h2>
+                                        <small>19th September, 2020</small>
+                                        <ul class="skills-used-list">
+                                            <li>React</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                        <p>Most of the emojis we use, we often dont know their meaning. This app gives you meaning of all the food emojis, just enter an emoji to get the meaning or click from the given emojis.</p>
+                                    </div>
+                                    <div class="project-links-container">
+                                        <a class="primary-link" href="https://wy71s.csb.app/">Live Project</a>
+                                        <a class="secondary-link" href="https://github.com/shaik-saad/emoji-interpreter">View Source Code</a>
+                                    </div>
+                                </div>
+                                <div class="project-image-container">
+                                    <img class="project-image" src="./images/bob-emoji.png" alt="Project BOB The Emoji Name Screenshot">
+                                </div>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container container-center">
+                            <section class="project-section">
+                                <div class="project-description-container">
+                                    <div class="project-details-container">
+                                        <h2>133t h4x0r</h2>
+                                        <small>18th September, 2020</small>
+                                        <ul class="skills-used-list">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                        <p>You might have seen hackers communicating in secret code? This translator app will convert the text in English language to the Leet / Hacker slang.</p>
+                                    </div>
+                                    <div class="project-links-container">
+                                        <a class="primary-link" href="https://leethacker.netlify.app/">Live Project</a>
+                                        <a class="secondary-link" href="https://github.com/shaik-saad/leetcode-translator">View Source Code</a>
+                                    </div>
+                                </div>
+                                <div class="project-image-container">
+                                    <img class="project-image" src="./images/leet-hacker.png" alt="Project Leet Hacker Screenshot">
+                                </div>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container container-center">
+                            <section class="project-section">
+                                <div class="project-description-container">
+                                    <div class="project-details-container">
+                                        <h2>Banana Translation</h2>
+                                        <small>18th September, 2020</small>
+                                        <ul class="skills-used-list">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                        <p>We all love minions, don't we?. They look cute and they talk cute. Well, you can talk cute like minions too! This fun translation app let's you translate your text from English to Banana language.</p>
+                                    </div>
+                                    <div class="project-links-container">
+                                        <a class="primary-link" href="https://speakinbanana.netlify.app/">Live Project</a>
+                                        <a class="secondary-link" href="https://github.com/shaik-saad/banana-talk">View Source Code</a>
+                                    </div>
+                                </div>
+                                <div class="project-image-container">
+                                    <img class="project-image" src="./images/banana-translation.png" alt="Project Banana Translation Screenshot">
+                                </div>
+                            </section>
+                        </div>
+                    </li>
+                </ul>
+            </main>
         
-        <li>
-            <div class="container container-center">
-                <section class="section ">
-                    <h2>The GOT Quiz</h2>
-                    <small>13th September, 2020</small>
-                    <p>A very interesing and fun to play quiz on the series Game of Thrones. This a CLI app built on <strong>Node.js</strong></p>
-                    <a class="link primary-link" href="https://replit.com/@shaiksaad/game-of-thrones?embed=1&output=1">Live Project</a>
-                    <a class="link secondary-link" href="https://github.com/shaik-saad/game-of-thrones-quiz">View Source Code</a>
-                </section>
-            </div>
-        </li>
-        <li>
-            <div class="container container-center">
-                <section class="section ow">
-                    <h2>The End Game</h2>
-                    <small>12th September, 2020</small>
-                    <p>A small quiz on the "How well do you know me and the Marvel movies". This a CLI app built on <strong>Node.js</strong></p>
-                    <a class="link primary-link" href="https://replit.com/@shaiksaad/end-game?embed=1&output=1">Live Project</a>
-                    <a class="link secondary-link" href="https://github.com/shaik-saad/end-game-quiz">View Source Code</a>
-                </section>
-            </div>
-        </li>
-    </ul>
-
-
-    <!-- Footer -->
-    <footer class="footer">
-        <h3>Connect with me on:</h3>
-        <ul class="non-bullet-list social-icons-list">
-            <li class="list-item-inline">
-                <a class="link" href="https://www.linkedin.com/in/shaik-saad">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="https://twitter.com/shaiksaadullah">
-                    <i class="fab fa-twitter"></i>
-                </a></li>
-            <li class="list-item-inline">
-                <a class="link" href="https://github.com/shaik-saad">
-                    <i class="fab fa-github"></i>
-                </a></li>
-        </ul>
-    </footer>
-</body>
+            <!-- Footer -->
+            <footer class="footer">
+                <h3>Connect with me on:</h3>
+                <ul class="non-bullet-list social-icons-list">
+                    <li class="list-item-inline">
+                        <a class="link" href="https://www.linkedin.com/in/shaik-saad">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a class="link" href="https://x.com/shaiksaadullah">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a class="link" href="https://github.com/shaik-saad">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </body>
 </html>
